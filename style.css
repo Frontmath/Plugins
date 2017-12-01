@@ -1,0 +1,127 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #E6E6E6;
+}
+
+#wrap{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #222;
+	padding: 15px;
+}
+
+h1, h2{
+	margin: 0;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	background-color: #444;
+	color: #47A5FF;
+}
+
+h1{
+	text-align: center;
+	background-color: #222;
+	color: #F92659;
+}
+
+h2{
+	cursor: pointer;
+	border-radius: 10px;
+	position: relative;
+}
+
+h2:after{
+	content: '↓';
+	position: absolute;
+	right: 20px;
+	color: #F9264A;
+}
+
+#accordionSergio{
+	margin-bottom: 50px;
+	border-bottom: 5px solid #F92659;
+}
+
+.contentOf{
+	padding: 15px;
+}
+
+.contentOf p{
+	color: #A6E22E;
+	font-size: 20px;	
+}
+
+.contentOf ul{
+	color: #A6E22E;
+	font-size: 20px;
+}
+
+.contentOf strong{
+	color: #538cff;
+}
+
+#carousel{
+	position: relative;
+	margin: 50px auto;
+	width: 620px;
+	height: 420px;
+}
+
+.slide{
+	position: absolute;
+	border: 10px solid #494949;	
+	opacity: 0;
+	height: 400px;
+}
+
+.visibleSlide{
+	opacity: 1;
+}
+
+.switchSlide{
+   padding: 15px;
+   background-color: rgba(0,0,0, 0.8);
+   color: #fff;
+   font-weight: bold;
+   position: absolute; 
+   z-index: 2;
+   cursor: pointer; 
+   font-weight: bold;
+   outline:none;
+ }
+
+
+#prev{
+  top: 43%;
+  left: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#next{
+   top: 43%;
+   right: 0; 
+   border-radius: 5px 0 0 5px;
+}
+
+#dots{  
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  bottom: -35px;
+  left: 41%;
+}
+
+.circle{
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotChosen{
+	background-color: #47A5FF;
+}
